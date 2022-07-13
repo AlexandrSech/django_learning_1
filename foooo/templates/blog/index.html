@@ -1,0 +1,19 @@
+{% extends "main.html" %}
+
+{% block content %}
+
+    Hi {{ user }}
+
+    <p id="demo"></p>
+
+    <script>
+    (function loop() {
+        setTimeout(function () {
+            // execute script
+            document.getElementById("demo").innerHTML = Date();
+            loop()
+        }, 1000);
+    }());
+    </script>
+
+{% endblock %}

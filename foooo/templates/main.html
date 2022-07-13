@@ -1,0 +1,16 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
+</head>
+<body>
+
+<div class="menu">
+    <a href="{% url 'main' %}">main</a>   <a href="{% url 'create_user' %}">create user</a>   <a href="{% url 'users_list' %}">users list</a>   <a href="{% url 'user' %}">user</a>
+</div>
+<div class="content">
+    {% block content %}{% endblock %}
+</div>

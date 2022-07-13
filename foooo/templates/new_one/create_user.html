@@ -1,0 +1,18 @@
+{% extends "main.html" %}
+
+{% block content %}
+    {% if method == "get" %}
+       <form method="post">
+        <p>Имя     <input type="text" name="first_name"></p>
+        <p>Фамилия <input type="text" name="last_name"></p>
+        <p>Email   <input type="text" name="email"></p>
+        <p><input type="submit" value="Создац!!1!"></p>
+       </form>
+    {% else %}
+    <p>New user name: {{ user_name }}</p>
+
+       {% if error_message %}
+    <p><b>Ошибка: {{ error_message }}</b></p>
+       {% endif %}
+    {% endif %}
+{% endblock %}

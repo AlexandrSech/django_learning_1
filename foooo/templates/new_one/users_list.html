@@ -1,0 +1,34 @@
+{% extends "main.html" %}
+
+{% block content %}
+    <table border="2">
+        {% for user in users %}
+        <tr>
+            <td id="fn_{{ user.id }}">{{ user.first_name }}</td>
+            <td id="ln_{{ user.id }}">{{ user.last_name }}</td>
+            <td id="em_{{ user.id }}">{{ user.email }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+
+    <script>
+    (function loop() {
+        setTimeout(function () {
+            var xmlHttp = new XMLHttpRequest();
+            xmlHttp.open( "GET", "http://127.0.0.1:8000/new_one/new", false ); // false for synchronous request
+            xmlHttp.send( null );
+            var users = JSON.parse(xmlHttp.responseText);
+            var user = users["users"];
+
+
+            for (let i = 0; i < user.length; i++) {
+              document.getElementById("fn_" + user[i].id).innerHTML = user[i].first_name;
+              document.getElementById("ln_" + user[i].id).innerHTML = user[i].last_name;
+              document.getElementById("em_" + user[i].id).innerHTML = user[i].email;
+            }
+            loop()
+        }, 10000);
+    }());
+    </script>
+
+{% endblock %}

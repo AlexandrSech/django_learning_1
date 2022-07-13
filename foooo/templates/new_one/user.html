@@ -1,0 +1,25 @@
+{% extends "main.html" %}
+
+{% block content %}
+    <p id="user">{{ user_name }}</p>
+
+    <script>
+    (function loop() {
+        setTimeout(function () {
+            var xmlHttp = new XMLHttpRequest();
+            xmlHttp.open( "GET", "http://127.0.0.1:8000/new_one/new", false ); // false for synchronous request
+            xmlHttp.send( null );
+            var user = JSON.parse(xmlHttp.responseText);
+            document.getElementById("user").innerHTML = user.first_name;
+            // execute script
+            if (document.getElementById("user").innerHTML != user.first_name + " " + user.last_name) {
+                document.getElementById("user").innerHTML = user.first_name + " " + user.last_name;
+            }
+
+
+            loop()
+        }, 10000);
+    }());
+    </script>
+
+{% endblock %}
