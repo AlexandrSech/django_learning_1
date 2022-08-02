@@ -1,0 +1,30 @@
+2022-07-29 06:28:15,315 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-29 06:28:32,106 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-29 06:30:49,440 django.utils.autoreload INFO     /Users/johnray/Desktop/dj_1/foooo/new_one/views.py changed, reloading.
+2022-07-29 06:30:49,867 django.utils.autoreload INFO     /Users/johnray/Desktop/dj_1/foooo/new_one/views.py changed, reloading.
+2022-07-29 06:30:50,332 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-29 06:30:50,477 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-29 06:31:22,802 django.utils.autoreload INFO     /Users/johnray/Desktop/dj_1/foooo/new_one/views.py changed, reloading.
+2022-07-29 06:31:22,894 django.utils.autoreload INFO     /Users/johnray/Desktop/dj_1/foooo/new_one/views.py changed, reloading.
+2022-07-29 06:31:23,484 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-29 06:31:23,536 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-29 06:32:16,284 django.utils.autoreload INFO     /Users/johnray/Desktop/dj_1/foooo/new_one/views.py changed, reloading.
+2022-07-29 06:32:16,354 django.utils.autoreload INFO     /Users/johnray/Desktop/dj_1/foooo/new_one/views.py changed, reloading.
+2022-07-29 06:32:16,933 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-29 06:32:16,933 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-29 06:35:21,989 django.utils.autoreload INFO     /Users/johnray/Desktop/dj_1/foooo/new_one/views.py changed, reloading.
+2022-07-29 06:35:22,347 django.utils.autoreload INFO     /Users/johnray/Desktop/dj_1/foooo/new_one/views.py changed, reloading.
+2022-07-29 06:35:22,696 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-29 06:35:22,822 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-29 06:35:40,893 django.utils.autoreload INFO     /Users/johnray/Desktop/dj_1/foooo/new_one/urls.py changed, reloading.
+2022-07-29 06:35:41,510 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-29 06:35:41,794 django.utils.autoreload INFO     /Users/johnray/Desktop/dj_1/foooo/new_one/urls.py changed, reloading.
+2022-07-29 06:35:42,386 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-29 06:35:58,145 new_one.views INFO     info hello
+2022-07-29 06:35:58,145 new_one.views DEBUG    debug hello
+2022-07-29 06:35:58,145 new_one.views WARNING  warning hello
+2022-07-29 06:35:58,145 new_one.views ERROR    error hello
+2022-07-29 06:43:54,158 django.utils.autoreload INFO     /Users/johnray/Desktop/dj_1/foooo/new_one/views.py changed, reloading.
+2022-07-29 06:43:54,278 django.utils.autoreload INFO     /Users/johnray/Desktop/dj_1/foooo/new_one/views.py changed, reloading.
+2022-07-29 06:43:54,984 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-07-29 06:43:54,984 django.utils.autoreload INFO     Watching for file changes with StatReloader
